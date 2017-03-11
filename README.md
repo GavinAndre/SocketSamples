@@ -5,9 +5,9 @@ Socket网络知识学习基础 [实现分析](http://blog.csdn.net/lj402159806/a
 
 Socket通信学习实例一之建立Socket连接 [实现分析](http://blog.csdn.net/lj402159806/article/details/56841817)
 
-![](preview/sockettest1.png)
+![](preview/sockettcpserver.png)
 
-![](preview/sockettest2.png)
+![](preview/sockettcpclient.png)
 
 Socket通信学习实例二之即时通信 [实现分析](http://blog.csdn.net/lj402159806/article/details/56890909)
 
@@ -16,3 +16,17 @@ Socket通信学习实例二之即时通信 [实现分析](http://blog.csdn.net/l
 Socket通信学习实例三之断点上传 [实现分析](http://blog.csdn.net/lj402159806/article/details/57516498)
 
 ![](preview/socketupload.gif)
+
+Socket通信学习实例四之UDP通信 [实现分析](http://blog.csdn.net/lj402159806/article/details/58589823)
+
+![](preview/socketudpserver.png)
+
+![](preview/socketudpclient.png)
+
+Socket通信学习实例五之模拟Http [实现分析](http://blog.csdn.net/lj402159806/article/details/58589823)
+
+![](preview/sockethttpserver.png)
+
+![](preview/sockethttpclient.png)
+
+
