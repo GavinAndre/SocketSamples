@@ -25,7 +25,7 @@ Socket通信学习实例四之UDP通信 [实现分析](http://blog.csdn.net/lj40
 
 ![](preview/socketudpclient.png)
 
-Socket通信学习实例五之模拟Http [实现分析](http://blog.csdn.net/lj402159806/article/details/58589823)
+Socket通信学习实例五之模拟Http [实现分析](http://blog.csdn.net/lj402159806/article/details/61428872)
 
 ![](preview/sockethttpserver.png)
 
