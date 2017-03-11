@@ -1,4 +1,4 @@
-package com.java.gavinandre.test;
+package com.java.gavinandre.tcp;
 
 import com.java.gavinandre.tool.SocketTool;
 
@@ -11,9 +11,9 @@ import java.net.Socket;
  * Created by gavinandre on 17-2-21.
  * Socket 建立连接
  */
-public class SocketTest {
+public class SocketTcpServer {
 
-    public SocketTest() throws IOException {
+    public SocketTcpServer() throws IOException {
 
         //1.创建一个服务端Socket，即ServerSocket，指定绑定的端口，并监听此端口
         ServerSocket serverSocket = new ServerSocket(SocketTool.PORT);
