@@ -49,11 +49,11 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="1149" column="26" lean-forward="true" selection-start-line="1149" selection-start-column="26" selection-end-line="1149" selection-end-column="26" />
+            <state relative-caret-position="49">
+              <caret line="1137" column="20" lean-forward="true" selection-start-line="1137" selection-start-column="20" selection-end-line="1137" selection-end-column="20" />
               <folding>
-                <element signature="e#4394#4400#0" expanded="true" />
-                <element signature="e#4406#4412#0" expanded="true" />
+                <element signature="e#5212#5218#0" expanded="true" />
+                <element signature="e#5224#5230#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,8 +138,8 @@
         <option value="$PROJECT_DIR$/src/com/java/gavinandre/tcp/SocketTcpServer.java" />
         <option value="$PROJECT_DIR$/src/com/java/gavinandre/udp/SocketUdpServer.java" />
         <option value="$PROJECT_DIR$/src/com/java/gavinandre/Main.java" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -302,20 +302,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SocketServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -783,7 +769,7 @@
       <workItem from="1489227900658" duration="2324000" />
       <workItem from="1489230260945" duration="2910000" />
       <workItem from="1489236296493" duration="12000" />
-      <workItem from="1489237144478" duration="116000" />
+      <workItem from="1489237144478" duration="170000" />
     </task>
     <task id="LOCAL-00001" summary="add upload socket">
       <created>1487768259546</created>
@@ -841,11 +827,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489237255539</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add socket http">
+      <created>1489237271311</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1489237271311</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35362000" />
+    <option name="totallyTimeSpent" value="35416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="80" width="1030" height="934" extended-state="0" />
@@ -1113,11 +1106,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="1149" column="26" lean-forward="true" selection-start-line="1149" selection-start-column="26" selection-end-line="1149" selection-end-column="26" />
+        <state relative-caret-position="49">
+          <caret line="1137" column="20" lean-forward="true" selection-start-line="1137" selection-start-column="20" selection-end-line="1137" selection-end-column="20" />
           <folding>
-            <element signature="e#4394#4400#0" expanded="true" />
-            <element signature="e#4406#4412#0" expanded="true" />
+            <element signature="e#5212#5218#0" expanded="true" />
+            <element signature="e#5224#5230#0" expanded="true" />
           </folding>
         </state>
       </provider>
