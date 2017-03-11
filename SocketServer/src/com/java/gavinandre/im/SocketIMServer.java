@@ -14,7 +14,7 @@ import java.util.concurrent.Executors;
  * Created by gavinandre on 17-2-22.
  * socket 即时通讯
  */
-public class SocketIM {
+public class SocketIMServer {
 
     //定义相关的参数,端口,存储Socket连接的集合,ServerSocket对象
     //以及线程池
@@ -23,7 +23,7 @@ public class SocketIM {
     private ServerSocket server = null;
     private ExecutorService myExecutorService = null;
 
-    public SocketIM() {
+    public SocketIMServer() {
         try {
             server = new ServerSocket(PORT);
             //创建线程池
