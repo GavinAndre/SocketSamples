@@ -16,26 +16,39 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         TextView textView1 = (TextView) findViewById(R.id.socket_sample_1);
         TextView textView2 = (TextView) findViewById(R.id.socket_sample_2);
         TextView textView3 = (TextView) findViewById(R.id.socket_sample_3);
+        TextView textView4 = (TextView) findViewById(R.id.socket_sample_4);
+        TextView textView5 = (TextView) findViewById(R.id.socket_sample_5);
 
         textView1.setOnClickListener(this);
         textView2.setOnClickListener(this);
         textView3.setOnClickListener(this);
+        textView4.setOnClickListener(this);
+        textView5.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
+        Intent intent;
         switch (v.getId()) {
             case R.id.socket_sample_1:
-                Intent intent1 = new Intent(this, SocketTestActivity.class);
-                startActivity(intent1);
+                intent = new Intent(this, SocketTcpActivity.class);
+                startActivity(intent);
                 break;
             case R.id.socket_sample_2:
-                Intent intent2 = new Intent(this, SocketIMActivity.class);
-                startActivity(intent2);
+                intent = new Intent(this, SocketIMActivity.class);
+                startActivity(intent);
                 break;
             case R.id.socket_sample_3:
-                Intent intent3 = new Intent(this, SocketUploadActivity.class);
-                startActivity(intent3);
+                intent = new Intent(this, SocketUploadActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.socket_sample_4:
+                intent = new Intent(this, SocketUdpActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.socket_sample_5:
+                intent = new Intent(this, SocketHttpActivity.class);
+                startActivity(intent);
                 break;
         }
     }

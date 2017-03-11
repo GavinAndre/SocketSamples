@@ -19,10 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".SocketTestActivity"/>
-        <activity android:name=".SocketIMActivity"
+        <activity android:name=".SocketTcpActivity"/>
+        <activity
+            android:name=".SocketIMActivity"
             android:windowSoftInputMode="adjustResize|stateHidden"/>
         <activity android:name=".SocketUploadActivity"/>
+        <activity android:name=".SocketUdpActivity"/>
+        <activity android:name=".SocketHttpActivity"/>
     </application>
 
 </manifest>

@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c89f947-6010-40b7-9dab-ae2084d8838d" name="Default" comment="update socket upload">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/java/gavinandre/im/SocketIM.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/java/gavinandre/test/SocketTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/java/gavinandre/tool/SocketTool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/java/gavinandre/upload/FileServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/java/gavinandre/upload/SocketUpload.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/java/gavinandre/upload/StreamTool.java" />
+    <list default="true" id="0c89f947-6010-40b7-9dab-ae2084d8838d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketClient/app/src/main/java/com/gavinandre/socketclient/SocketTcpActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketClient/app/src/main/java/com/gavinandre/socketclient/SocketUdpActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketClient/app/src/main/java/com/gavinandre/socketclient/tool/HttpPost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketClient/app/src/main/res/layout/socket_http_activity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketClient/app/src/main/res/layout/socket_udp_activity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/java/gavinandre/http/SimpleHttpServer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/java/gavinandre/tool/IoUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/java/gavinandre/udp/SocketUdpServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SocketClient/app/src/main/java/com/gavinandre/socketclient/SocketTestActivity.java" afterPath="$PROJECT_DIR$/../SocketClient/app/src/main/java/com/gavinandre/socketclient/SocketHttpActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../SocketClient/app/src/main/res/layout/socket_test_activity.xml" afterPath="$PROJECT_DIR$/../SocketClient/app/src/main/res/layout/socket_tcp_activity.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/java/gavinandre/im/SocketIM.java" afterPath="$PROJECT_DIR$/src/com/java/gavinandre/im/SocketIMServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/java/gavinandre/test/SocketTest.java" afterPath="$PROJECT_DIR$/src/com/java/gavinandre/tcp/SocketTcpServer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/java/gavinandre/upload/SocketUpload.java" afterPath="$PROJECT_DIR$/src/com/java/gavinandre/upload/SocketUploadServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SocketClient/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../SocketClient/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SocketClient/app/src/main/java/com/gavinandre/socketclient/MainActivity.java" afterPath="$PROJECT_DIR$/../SocketClient/app/src/main/java/com/gavinandre/socketclient/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SocketClient/app/src/main/java/com/gavinandre/socketclient/SocketUploadActivity.java" afterPath="$PROJECT_DIR$/../SocketClient/app/src/main/java/com/gavinandre/socketclient/SocketUploadActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SocketClient/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/../SocketClient/app/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SocketClient/app/src/main/res/layout/socket_im_activity.xml" afterPath="$PROJECT_DIR$/../SocketClient/app/src/main/res/layout/socket_im_activity.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SocketClient/app/src/main/res/layout/socket_upload_activity.xml" afterPath="$PROJECT_DIR$/../SocketClient/app/src/main/res/layout/socket_upload_activity.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/java/gavinandre/Main.java" afterPath="$PROJECT_DIR$/src/com/java/gavinandre/Main.java" />
     </list>
@@ -34,7 +45,50 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SimpleHttpServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/http/SimpleHttpServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketUdpServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/udp/SocketUdpServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketTcpServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tcp/SocketTcpServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,6 +102,8 @@
       <find>SocketTool.getIP()</find>
       <find>&quot;length&quot;</find>
       <find>setProperty</find>
+      <find>execute</find>
+      <find>execute(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,11 +124,17 @@
         <option value="$PROJECT_DIR$/src/com/java/gavinandre/upload/UploadServer.java" />
         <option value="$PROJECT_DIR$/src/com/java/gavinandre/tool/SocketTool.java" />
         <option value="$PROJECT_DIR$/src/com/java/gavinandre/test/SocketTest.java" />
-        <option value="$PROJECT_DIR$/src/com/java/gavinandre/Main.java" />
         <option value="$PROJECT_DIR$/src/com/java/gavinandre/upload/SocketUpload.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/java/gavinandre/upload/FileServer.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/java/gavinandre/http/IoUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/java/gavinandre/tool/IoUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/java/gavinandre/http/SimpleHttpServer.java" />
+        <option value="$PROJECT_DIR$/src/com/java/gavinandre/test/SocketTcpServer.java" />
+        <option value="$PROJECT_DIR$/src/com/java/gavinandre/tcp/SocketTcpServer.java" />
+        <option value="$PROJECT_DIR$/src/com/java/gavinandre/udp/SocketUdpServer.java" />
+        <option value="$PROJECT_DIR$/src/com/java/gavinandre/Main.java" />
       </list>
     </option>
   </component>
@@ -83,9 +145,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="224" />
+    <option name="x" value="2" />
     <option name="y" value="52" />
-    <option name="width" value="953" />
+    <option name="width" value="1030" />
     <option name="height" value="934" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -105,6 +167,21 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SocketServer">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -127,43 +204,100 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="file" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="2017" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="02" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="26" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="21" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="56" />
+              <option name="myItemId" value="gavinandre" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="SocketServer">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gavinandre" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gavinandre" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tcp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gavinandre" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="im" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SocketServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gavinandre" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -624,7 +758,11 @@
       <workItem from="1488009030759" duration="4008000" />
       <workItem from="1488114791595" duration="6185000" />
       <workItem from="1489200879691" duration="139000" />
-      <workItem from="1489201040428" duration="7000" />
+      <workItem from="1489201040428" duration="255000" />
+      <workItem from="1489201323927" duration="15000" />
+      <workItem from="1489204336406" duration="2326000" />
+      <workItem from="1489227900658" duration="2324000" />
+      <workItem from="1489230260945" duration="2910000" />
     </task>
     <task id="LOCAL-00001" summary="add upload socket">
       <created>1487768259546</created>
@@ -668,39 +806,46 @@
       <option name="project" value="LOCAL" />
       <updated>1488120943366</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add socket server">
+      <created>1489201077024</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1489201077024</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27411000" />
+    <option name="totallyTimeSpent" value="35234000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="224" y="52" width="953" height="934" extended-state="0" />
-    <editor active="false" />
+    <frame x="2" y="52" width="1030" height="934" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47029704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32549506" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29812983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23326571" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -715,7 +860,8 @@
     <MESSAGE value="add readme" />
     <MESSAGE value="update readme" />
     <MESSAGE value="update socket upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="update socket upload" />
+    <MESSAGE value="add socket server" />
+    <option name="LAST_COMMIT_MESSAGE" value="add socket server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -728,21 +874,37 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/upload/SocketUpload.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/http/SimpleHttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/http/SimpleHttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/upload/SocketUploadServer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/upload/FileServer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/upload/StreamTool.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/test/SocketTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tcp/SocketTcpServer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tool/SocketTool.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/im/SocketIM.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/test/SocketTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/im/SocketIMServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tcp/SocketTcpServer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tool/SocketTool.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/im/SocketIM.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/test/SocketTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/im/SocketIMServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tcp/SocketTcpServer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tool/SocketTool.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/im/SocketIM.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/test/SocketTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/im/SocketIMServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tcp/SocketTcpServer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tool/SocketTool.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/im/SocketIM.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/im/SocketIMServer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -751,7 +913,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/im/IMServer.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/test/SocketTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tcp/SocketTcpServer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/upload/UploadServer.java" />
     <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/upload/StreamTool.java" />
     <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/upload/FileServer.java" />
@@ -772,24 +934,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="136" column="17" lean-forward="false" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="139" column="9" lean-forward="false" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/test/SocketTest.java" />
     <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/upload/StreamTool.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tool/SocketTool.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/im/SocketIM.java" />
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -812,19 +957,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/upload/SocketUpload.java" />
     <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/upload/FileServer.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="129" column="7" lean-forward="true" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="136" column="46" lean-forward="false" selection-start-line="136" selection-start-column="46" selection-end-line="136" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="695" column="29" lean-forward="false" selection-start-line="695" selection-start-column="29" selection-end-line="695" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="1365" column="19" lean-forward="true" selection-start-line="1365" selection-start-column="19" selection-end-line="1365" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/upload/SocketUploadServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tool/SocketTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/im/SocketIMServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tool/IoUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/tcp/SocketTcpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/udp/SocketUdpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/http/SimpleHttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/java/gavinandre/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
