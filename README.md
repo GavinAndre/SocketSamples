@@ -1,7 +1,7 @@
 # SocketSamples
 Socket学习笔记
 
-![](preview/socketsamples.png)
+![](preview/socketsamples.jpg)
 
 Socket网络知识学习基础 [实现分析](http://blog.csdn.net/lj402159806/article/details/56290460)
 
